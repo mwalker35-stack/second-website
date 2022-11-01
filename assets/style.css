@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  margin: 0;
+}
+
+header h1 {
+  border: 1px green;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+
+nav a {
+  color: #ffffff;
+  font-weight: bold;
+  padding: 14px 20px;
+  text-decoration: underline;
+  text-decoration-thickness: 15%;
+  text-align: center;
+}
+
+.select {
+  height: 200px;
+  background-image: url("./images/image\ projects.png");
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-me h2 {
+  width: 45%;
+  padding: 10px;
+  padding-top: 0px;
+  text-align: right;
+  font-size: 35px;
+}
+
+.about-me p {
+  border-left: 2px solid;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.projects article {
+  border-left: 2px solid;
+  padding: 10px;
+}
+
+.projects h2 {
+  width: 10%;
+  padding: 14px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+.project-image {
+  opacity: 0.50;
+}
+
+.project-image:hover {
+  opacity: 1;
+}
+
+.project p {
+  border-left: 2px solid;
+  padding: 10px;
+}
+
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: #bacaf0;
+}
+
+.footer ul {
+  border-left: 2px solid;
+  padding: 0px;
+}
+
+.footer h3 {
+  width: 11%;
+  padding: 10px;
+  padding-top: 0px;
+  text-align: right;
+  font-size: 35px;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  padding: 10px;
+  background-color: #cfd1f5;
+}
