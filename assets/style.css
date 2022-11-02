@@ -1,40 +1,58 @@
 body {
   display: flex;
   flex-direction: column;
-  line-height: 1.3;
+  line-height: 1.5;
   margin: 0;
 }
 
-header h1 {
-  border: 1px green;
-}
+
 
 header {
   display: flex;
+  flex-direction: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1%;
+  padding: 4%;
   background-color: #ffffff;
+}
+
+header {
+  width: 100%;
+  line-height: 40px;
+  background-color: #1454eb;
 }
 
 h1 {
   font-size: 40px;
+  background-color: #c51919;
 }
 
 
 nav a {
-  color: #ffffff;
+  display: wrap;
+  justify-content: normal;
+  color: #0c0c0c;
   font-weight: bold;
   padding: 14px 20px;
   text-decoration: underline;
-  text-decoration-thickness: 15%;
-  text-align: center;
+  text-decoration-thickness: 10%;
+  text-align: right;
+  font-size: 28px;
 }
 
 .select {
-  height: 200px;
-  background-image: url("./images/image\ projects.png");
+  display: flex;
+  height: 150%;
+  background-image: url("./images/DSC03813-Edit.JPG");
+  width: 150%;
+  image-orientation: center;
 }
+
+.content {
+  padding-left: 4;
+  padding-right: 4;
+}
+
 
 .about-me {
   display: flex;
@@ -51,7 +69,8 @@ nav a {
 }
 
 .about-me p {
-  border-left: 2px solid;
+  border-left: 5px solid;
+  border-color: #1454eb;
   padding: 10px;
 }
 
@@ -60,21 +79,17 @@ h2 {
 }
 
 .projects {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-.projects article {
-  border-left: 2px solid;
-  padding: 10px;
+  justify-content: space-evenly;
 }
 
 .projects h2 {
-  width: 10%;
-  padding: 14px;
-  padding-top: 20px;
+  width: 15%;
+  padding: 10px;
+  padding-top: 0px;
   text-align: right;
+  font-size: 35px;
 }
 
 .project-image {
@@ -85,37 +100,29 @@ h2 {
   opacity: 1;
 }
 
-.project p {
-  border-left: 2px solid;
-  padding: 10px;
+.projects p {
+  border-left: 5px solid;
+  border-color: #1454eb;
+  padding: 11px;
 }
 
+.footer h3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 60px;
+  width: 106%;
+  line-height: 60px;
+  background-color: #1454eb;
+}
 
-header,
-footer {
+div {
+  display: flex;
   height: 60px;
   width: 100%;
   line-height: 60px;
   background-color: #bacaf0;
-}
-
-.footer ul {
-  border-left: 2px solid;
-  padding: 0px;
-}
-
-.footer h3 {
-  width: 11%;
-  padding: 10px;
-  padding-top: 0px;
-  text-align: right;
-  font-size: 35px;
-}
-
-footer div {
-  display: flex;
+  padding: 40px;
+  flex-direction: row;
   justify-content: space-evenly;
-  align-items: flex-end;
-  padding: 10px;
-  background-color: #cfd1f5;
 }
