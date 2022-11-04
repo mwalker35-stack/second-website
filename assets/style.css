@@ -5,6 +5,7 @@ body {
   margin: 2px;
 }
 
+/*head on flexible mode so it sizes down*/
 header {
   display: flex;
   justify-content: space-between;
@@ -24,7 +25,7 @@ h1 {
   background-color: #000000;
   height: 150;
 }
-
+/*profile avatar styling for slant and drop shadow for style*/
 .card {
   border-style: solid;
   border-width: 1px;
@@ -48,7 +49,7 @@ nav a {
   font-weight: bold;
   text-decoration: none;
 }
-
+/*header font hover turns pink*/
 nav a:hover {
   color: rgb(252, 79, 220);
 }
@@ -105,6 +106,7 @@ h2 {
   font-size: 35px;
 }
 
+/*avatar picture with a degree of slant for style*/
 .project-image {
   border-style: solid;
   border-width: 1px;
@@ -115,6 +117,7 @@ h2 {
   margin: 20px;
 }
 
+/*making image darker on hover*/
 .project-image {
   opacity: 0.80;
 }
@@ -129,13 +132,18 @@ h2 {
   padding: 11px;
 }
 
+/* picture grow with hover */
 .project-image {
   transition: all .2s ease-in-out;
 }
 
+/* picture grow with hover */
 .project-image:hover {
   transform: scale(1.1);
+
+  /*footer inline for contact info*/
 }
+
 .footer h3 {
   display: flex;
   justify-content: center;
