@@ -1,8 +1,9 @@
 body {
   display: flex;
+  justify-content: center;
+  flex-basis: 100%;
   flex-direction: column;
   line-height: 1.5;
-  margin: 2px;
 }
 
 /*head on flexible mode so it sizes down*/
@@ -34,7 +35,7 @@ h1 {
   flex: 0 0 300px;
   transform: rotate(8deg);
   box-shadow: 10px 10px 5px #aaaaaa;
-  margin: 20px;
+  margin: 30px;
 }
 
 nav li {
@@ -63,15 +64,15 @@ nav a:hover {
   padding-top: 5px;
   padding: 25px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
 
 .about-me {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: inline-flex;
+  flex-basis: 100%;
+  flex-direction: center;
+  justify-content: center;
 }
 
 .about-me h2 {
@@ -83,9 +84,11 @@ nav a:hover {
 }
 
 .about-me p {
+  display: flex;
+  justify-content: center;
   border-left: 5px solid;
   border-color: #000000;
-  padding: 10px;
+  padding: 60px;
 }
 
 h2 {
@@ -129,7 +132,7 @@ h2 {
 .projects p {
   border-left: 5px solid;
   border-color: #000000;
-  padding: 11px;
+  padding: 30px;
 }
 
 /* picture grow with hover */
